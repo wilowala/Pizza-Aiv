@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif !important;
+}
+
+#lp{
+    background: url(../images/louis-hansel-fYq-yTcqKR0-unsplash.jpg) no-repeat center center / cover;
+    min-height: 100vh;
 }
 
 nav{
@@ -17,32 +23,67 @@ nav{
 }
 
 nav ul li a{
-    color: #780000 !important;
+    color: #C1121F !important;
     font-weight: 700;
     padding-right: 1rem !important;
     font-size: 1.065rem;
+}
+
+nav ul li a:hover{
+    color: white !important;
 }
 
 #aiv{
     font-family: 'Dancing Script', cursive !important;
     font-size: 3rem;
     padding: 0 !important;
-    color: #780000;
+    color: #C1121F;
 }
 
 #btn{
-    color: #780000;
-    border: 0.156rem solid #780000;
+    color: #C1121F;
+    border: 0.156rem solid #C1121F;
     box-shadow: none;
     font-weight: 700;
 }
 
 #btn:hover{
-    background-color: #780000;
+    background-color: #C1121F;
     color: white;
     font-weight: 700;
 }
 
-#btn:focus{
+#we{
+    min-height: 57vh;
+    margin-top: 6%;
+    margin-right:10%;
+    width: 33%;
+    background: rgba(132, 158, 157, 0.3);
+    border-radius: 0.5rem;
+}
 
+#fresh{
+    margin: 15% 0 15% 0;
+}
+
+#fresh h1{
+    font-family: 'Euphoria Script', cursive !important;
+    font-size: 330%;
+    color: #C1121F;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#fresh button{
+    width: 51%;
+    border: 0.165rem solid #C1121F;
+    box-shadow: none;
+    color: #C1121F;
+    font-size: 1.2rem;
+}
+
+#fresh button:hover{
+    color: white;
+    background-color: #C1121F;
+    font-size: 1.2rem;
 }
