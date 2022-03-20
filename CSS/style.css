@@ -91,3 +91,32 @@ nav ul li a:hover{
     color: #C1121F;
     font-size: 3rem;
 }
+
+#part1{
+    background-color: #C1121F;
+}
+
+#place img{
+  width: 60%; 
+  height: 47vh;
+  margin: 13%;
+  background-color: #C1121F;
+} 
+
+#left{
+    background-color: #C1121F;
+}
+
+#find{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20%;
+    margin-left: 50%;
+    background-color: #C1121F;
+}
+
+#find p{
+    font-size: 170%;
+    font-weight: 500;
+    color: white;
+}
