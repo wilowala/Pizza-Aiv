@@ -1,5 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif !important;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0.125rem 0.313rem 0 rgba(0,0,0,0.16);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul li a{
+    color: #780000 !important;
+    font-weight: 700;
+    padding-right: 1rem !important;
+    font-size: 1.065rem;
+}
+
+#aiv{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 3rem;
+    padding: 0 !important;
+    color: #780000;
+}
+
+#btn{
+    color: #780000;
+    border: 0.156rem solid #780000;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+#btn:hover{
+    background-color: #780000;
+    color: white;
+    font-weight: 700;
+}
+
+#btn:focus{
+
 }
