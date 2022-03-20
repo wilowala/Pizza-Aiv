@@ -138,3 +138,39 @@ nav ul li a:hover{
     font-weight: 600;
     line-height: 2.2rem;
 }
+
+#explore h1{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #C1121F;
+}
+
+#slider{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+.image-slider{
+    width: 100%;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.65s;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.slide img{
+    width: 15rem;
+    height: 16.125rem;
+    transition: .5s;
+    filter: saturate(90%);
+}
