@@ -75,7 +75,6 @@ nav ul li a:hover{
 }
 
 #fresh button{
-    width: 51%;
     border: 0.165rem solid #C1121F;
     box-shadow: none;
     color: #C1121F;
@@ -86,4 +85,9 @@ nav ul li a:hover{
     color: white;
     background-color: #C1121F;
     font-size: 1.2rem;
+}
+
+#arrow i{
+    color: #C1121F;
+    font-size: 3rem;
 }
