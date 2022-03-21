@@ -147,7 +147,7 @@ nav ul li a:hover{
     color: #C1121F;
 }
 
-#slider{
+/* #slider{
     display: flex;
     flex-direction: row !important;
     align-items: center;
@@ -173,4 +173,4 @@ nav ul li a:hover{
     height: 16.125rem;
     transition: .5s;
     filter: saturate(90%);
-}
+} */
