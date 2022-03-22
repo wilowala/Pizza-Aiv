@@ -96,7 +96,64 @@
 
         <h1>Explore our flavours</h1>
 
-        <div id="slider">
+        <main id="slider" class="row row-cols-sm-2 row-cols-1 m-auto">
+
+            <div id="explore2" class="col">
+
+                <div class="carousel-inner rounded-2 shadow " id="explore3">
+
+                    <div class="carousel-item">
+                        <img src="./images/getulio-moraes-yLMU6f-RQow-unsplash.jpg" alt="" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/amirali-mirhashemian-w1iMfs6yxuo-unsplash.jpg" alt="" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ignazio-di-gangi-DOZPkjmXxXw-unsplash.jpg" alt="" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pink-pixie-zS8FcX9J14s-unsplash.jpg" alt="" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/laure-noverraz-jsZKLRi7toU-unsplash.jpg" alt="" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/henry-perks-TStCoAiFjDY-unsplash.jpg" alt="" class="d-block">
+                    </div>
+
+                </div>
+
+                <!-- <button class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button> -->
+
+            </div>
+
+            <ul id="captions" class="col">
+
+                <li class="cap animate fs-6 rounded-2">
+                    <em>Pizza Marinara</em><br>Features tomatoes, garlicoregano, and extra virgin olive oil
+                </li>
+                <li class="cap fs-6 rounded-2">
+                    <em>Pizza Margherita</em><br>Features tomatoes, sliced mozzarella, basil, and extra virgin olive oil.
+                </li>
+                <li class="cap fs-6 rounded-2">
+                    <em>Pizza Margherita extra</em><br>Features tomatoes, mozzarella from Campania, basil, and extra virgin olive oil.
+                </li>
+                <li class="cap fs-6 rounded-2">
+                    <em>Chicago Pizza</em><br>Features thick crust, mozzarella, meat, and vegetables.
+                </li>
+                <li class="cap fs-6 rounded-2">
+                    <em>Sicilian Pizza</em><br>Features pillowy dough with a crunchy crust and robust tomato sauce.
+                </li>
+                <li class="cap fs-6 rounded-2">
+                    <em>Greek Pizza</em><br>Features tomatoes, garlicoregano, and extra virgin olive oil
+                </li>
+
+            </ul>
 <!-- 
             <span class="slider-span" id="slider-span1"></span>
             <span class="slider-span" id="slider-span2"></span>
@@ -153,9 +210,285 @@
             </div> -->
 
 
+        </main>
+
+    </div>
+
+    <div class="container-fluid order" id="make-order">
+
+        <div class="order-overlay">
+
+            <div class="controls-top text-center" id="Order-now"> 
+
+                <h1>Place your order</h1>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-5 user-data">
+
+                    <form action="">
+
+                        <div>
+
+                            <label for="select">Pick flavor</label>
+
+                        </div>
+
+                        <select class="browser-default custom-select custom-select-md mb-3 name">
+
+                            <option value="Pizza Marinara">Pizza Marinara</option>
+
+                            <option value="Pizza Margherita">Pizza Margherita</option>
+
+                            <option value="Pizza Margherita extra">Pizza Margherita extra</option>
+
+                            <option value="Chicago Pizza">Chicago Pizza</option>
+
+                            <option value="Sicilian Pizza">Sicilian Pizza</option>
+
+                            <option value="Greek Pizza">Greek Pizza</option>
+
+                        </select>
+
+                        <div>
+
+                            <label for="select">Pizza size</label>
+
+                        </div>
+
+                        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+
+                            <option selected value="0">Pick your size here</option>
+
+                            <option value="large">Large @ksh.1000</option>
+
+                            <option value="medium">Medium @ksh.800</option>
+
+                            <option value="small">Small @ksh.500</option>
+
+                        </select>
+
+                       <div>
+
+                        <label for="crust">Choose Crust</label>
+
+                       </div>
+
+                        <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+
+                            <option selected value="0">Choose crust</option>
+
+                            <option value="Crispy">Crispy @ksh.300</option>
+
+                            <option value="Stuffed">Stuffed @ksh.200</option>
+
+                            <option value="Gluten-free">Gluten-free @ksh.220</option>
+
+
+                        </select>
+
+                        <div>
+
+                            <label for="Toppings">Select topping(s) @ksh.100</label>
+
+                        </div>
+
+                        <div id="options">
+
+                            <div class="custom-control custom-checkbox custom-control-inline">
+
+                                <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+    
+                                <label class="custom-control-label" for="Sausage">Pepperoni</label>
+    
+                            </div>
+    
+                            <div class="custom-control custom-checkbox custom-control-inline">
+    
+                                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+    
+                                <label class="custom-control-label" for="Bacon">Artichokes</label>
+    
+                            </div>
+    
+                            <div class="custom-control custom-checkbox custom-control-inline">
+    
+                                <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+    
+                                <label class="custom-control-label" for="Mushrooms">Zucchini</label>
+    
+                            </div>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-orange proceed">Place order</button>
+
+                    </form>
+
+                </div>
+
+                <div class="col-sm-7">
+
+                    <div id="information">
+
+                        <p>We will process and deliver your order within 45 minutes.</p>
+
+                        <p>You wil be required to make total payments on delivery.</p>
+
+                        <p>Reach out to us throught our contacts incase of any complain or suggestion.</p>
+
+                        <p id="regards">Welcome Again</p>
+
+                    </div>
+
+                    <div class="choise">
+
+                        <h2>Here's your order:</h2>
+
+                        <div id="your-orders">
+
+                            <table class="table table-sm  pizzatable">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th scope="col">Name</th>
+
+                                        <th scope="col">Size</th>
+
+                                        <th scope="col">Crust</th>
+
+                                        <th scope="col">Topping</th>
+
+                                        <th scope="col">Total</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody id="ordersmade">
+
+                                    <tr>
+
+                                        <td id="pizzaname"></td>
+
+                                        <td id="pizzasize"></td>
+
+                                        <td id="pizzacrust"></td>
+
+                                        <td id="pizzatopping"></td>
+
+                                        <td id="totals"></td>
+
+                                    </tr> 
+
+                                </tbody>
+
+                            </table>
+                        
+                            <p id="pizzatotal"></p>
+
+                            <p id="totalbill"></p> 
+                        
+                            <p id="addedprice">Cost of delivery: Ksh.200</p>
+                        
+                            <p id="finallmessage"></p>
+                        
+                        </div>
+                    
+                        <button class="btn btn-orange addPizza">Add More</button>
+                        
+                        <button class="btn btn-orange" id="checkout">Checkout</button>
+                        
+                        <button class="btn btn-orange deliver">For delivery</button>
+                        
+                    </div>
+                    
+                    <div class="delivery">
+
+                        <form action="">
+
+                            <div class="form-group">
+
+                                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+
+                                <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+
+                                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+
+                                <button class="btn btn-orange" id="final-order">Order Now</button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
     </div>
+
+    <footer>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col" id="touch">
+
+                    <h2>Let's Keep</h2>
+
+                    <h3>In Touch</h3>
+
+                </div>
+
+                <div class="col locate">
+
+                    <p>Contact Us</p>
+
+                    <ul>
+
+                        <li>Tel: +254 - 00 0000000</li>
+                        <li>Mobile: +254 000 000000</li>
+                        <li>Email: info@example.com</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col locate">
+
+                    <p>Our Location</p>
+
+                    <ul>
+
+                        <li>Ngong' Lane Plaza, Ngong' Road</li>
+                        <li>P.O. BOX 543-00100</li>
+                        <li>Nairobi</li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row text-center" id="copy">
+
+                <p>Pizza Aiv &copy 2022. All rights reserved.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
