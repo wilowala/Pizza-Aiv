@@ -25,7 +25,7 @@ nav{
 nav ul li a{
     color: #C1121F !important;
     font-weight: 700;
-    padding-right: 1rem !important;
+    padding-right: 0.8rem !important;
     font-size: 1.065rem;
 }
 
@@ -147,6 +147,195 @@ nav ul li a:hover{
     color: #C1121F;
 }
 
+#explore2 button{
+    color: #C1121F;
+    /* background-color: #C1121F; */
+    /* display: inherit; */
+}
+
+#explore3 div img{
+    box-shadow: none !important;
+    width: 100% !important;
+}
+
+li{
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 5%;
+    /* margin-right: 10%; */
+    padding-top: 2%;
+    width: 70%;
+}
+
+.carousel-item{
+    display: block;
+}
+
+.cap:hover{
+    cursor: pointer;
+    background-color: #FDF0D5;
+}
+
+.cap:active{
+    border-bottom: 0.156rem solid #C1121F;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.16);
+}
+
+.animate{
+    position: relative;
+    background-color: #FDF0D5;
+}
+
+.animate em{
+    color: #C1121F;
+}
+
+.animate::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 0.156rem solid #C1121F;
+    width: 0%;
+    animation: linierRight 6s linear forwards;
+}
+
+@keyframes linierRight{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+#make-order{
+    background: url(../images/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg) no-repeat center center / cover;
+    display: block;
+    margin-top: 2%;
+    padding-bottom: 5% !important;
+}
+
+#Order-now h1{
+    padding: 3%;
+    color: #fff;
+}
+
+.user-data{
+    display: block;
+    padding-left: 5%;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+form select{
+    width: 60%;
+    padding: 1%;
+    background-color: #FDF0D5;
+    box-shadow: none;
+    border: none;
+}
+
+form button{
+    background-color: #C1121F !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    margin: 0.5rem 0;
+}
+
+#options{
+    display: flex;
+}
+
+.choise{
+    display: none;
+}
+
+.choise h2{
+    color: #C1121F !important;
+}
+
+.choise p, td, th{
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+.choise button{
+    background-color: #C1121F !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    margin: 0.5rem 0;
+}
+
+#information{
+    display: block;
+    margin: 5%;
+}
+
+#information p{
+    color: #fff !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+}
+
+.deliver{
+    display: none;
+}
+
+.delivery{
+    display: none;
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+footer{
+    background: #C1121F;
+}
+
+#touch{
+    display: block;
+    padding: 3%;
+}
+
+#touch h2{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 4rem;
+    padding: 2%;
+    color: #fff;
+}
+
+#touch h3{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 4rem;
+    padding-left: 10%;
+    color: #fff;
+}
+
+.locate{
+    display: block;
+    padding-top: 3%;
+}
+
+.locate p{
+    padding-left: 11%;
+    font-size: 2rem;
+    color: #FDF0D5;
+    font-weight: 600 !important;
+}
+
+.locate ul li{
+    color: #FDF0D5 !important;
+    line-height: 0.8rem;
+}
+
+#copy p{
+    color: #FDF0D5;
+    font-weight: 700 !important;
+}
 /* #slider{
     display: flex;
     flex-direction: row !important;
